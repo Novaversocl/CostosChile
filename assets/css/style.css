@@ -19,14 +19,14 @@
 /* Estilos para el logotipo */
 .logo {
   width: 50px;
-height: 50px;
+  height: 50px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); /* Sombra del logotipo */
 }
 
 /* Estilos para el botón del menú hamburguesa */
-.navbar-toggler {
+/* .navbar-toggler { */
   /* border: 3px solid rgb(168, 166, 183); Establecer un borde amarillo al botón del menú hamburguesa */
-}
+/* } */
 
 /* Estilos para el icono del menú hamburguesa */
 .navbar-toggler-icon {
@@ -44,5 +44,13 @@ height: 50px;
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-caret-left-fill' viewBox='0 0 16 16'%3E%3Cpath d='m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='purple' class='bi bi-caret-left-fill' viewBox='0 0 16 16'%3E%3Cpath d='m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z'/%3E%3C/svg%3E");
+}
+
+.fondoazul {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 57, 118, 0.8);
 }
