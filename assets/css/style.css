@@ -18,18 +18,19 @@
 
 /* Estilos para el logotipo */
 .logo {
-  width: 50px; /* Ancho del logotipo */
+  width: 50px;
+height: 50px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); /* Sombra del logotipo */
 }
 
 /* Estilos para el botón del menú hamburguesa */
 .navbar-toggler {
-  border: 3px solid rgb(251, 218, 29); /* Establecer un borde amarillo al botón del menú hamburguesa */
+  /* border: 3px solid rgb(168, 166, 183); Establecer un borde amarillo al botón del menú hamburguesa */
 }
 
 /* Estilos para el icono del menú hamburguesa */
 .navbar-toggler-icon {
-  border: 3px solid rgb(0, 164, 57); /* Establecer un borde verde al icono del menú hamburguesa */
+  /* border: 3px solid rgb(32, 24, 157); Establecer un borde verde al icono del menú hamburguesa */
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='blue' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); /* Cambiar el color del icono del menú hamburguesa a azul */
 }
 
