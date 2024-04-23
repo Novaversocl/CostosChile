@@ -1,13 +1,17 @@
-/* Estilos de reset */
+
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  overflow-x: hidden; /* Oculta el desplazamiento horizontal */
-  overflow-y: auto; /* Muestra el desplazamiento vertical solo si es necesario */
+  box-sizing: border-box;
+  
 }
 
-/* Estilos para el texto del logo */
+
+
+
+Estilos para el texto del logo
 .texto-logo {
   color: #0d4c80; /* Color del texto del logo */
   font-family: "Raleway", sans-serif; /* Fuente del texto del logo */
@@ -25,7 +29,7 @@
 
 /* Estilos para el botón del menú hamburguesa */
 /* .navbar-toggler { */
-  /* border: 3px solid rgb(168, 166, 183); Establecer un borde amarillo al botón del menú hamburguesa */
+/* border: 3px solid rgb(168, 166, 183); Establecer un borde amarillo al botón del menú hamburguesa */
 /* } */
 
 /* Estilos para el icono del menú hamburguesa */
@@ -55,7 +59,148 @@
   background-color: rgba(0, 57, 118, 0.8);
 }
 
-.colorcard{
+.colorcard {
+  background-color: #004daa;
+}
 
-  background-color:#004daa;
+
+
+.ColorfondoFooter {
+  background-color: #02022e;
+
+  font-family: "Raleway", sans-serif;
+  text-size-adjust: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  font-style: normal;
+  vertical-align: baseline;
+ 
+
+}
+
+.ColorfondoFooter2 {
+  background-color: #030310;
+ 
+
+   /* elimina el espacio blanco que deja abajo */
+  overflow: hidden;
+
+
+}
+
+
+
+
+
+/* Estilos para el botón de WhatsApp flotante */
+.floating-wpp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px; /* Cambiado de 'left' a 'right' para ubicarlo en el lado derecho */
+    font-size: 14px;
+    transition: bottom 0.2s;
+}
+
+.floating-wpp .floating-wpp-button {
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.4);
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.floating-wpp .floating-wpp-button img,
+.floating-wpp .floating-wpp-button svg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 50%;
+}
+
+.floating-wpp:hover {
+    bottom: 17px;
+}
+
+.floating-wpp:hover .floating-wpp-button {
+    box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.4);
+}
+
+.floating-wpp .floating-wpp-popup {
+    border-radius: 6px;
+    background-color: #e5ddd5;
+    position: absolute;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.25);
+    width: 0;
+    height: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: bottom 0.1s ease-out, opacity 0.2s ease-out;
+    transform-origin: bottom;
+}
+
+.floating-wpp .floating-wpp-popup.active {
+    padding: 0 12px 12px 12px;
+    width: 260px;
+    height: auto;
+    bottom: 82px;
+    opacity: 1;
+}
+
+.floating-wpp .floating-wpp-popup .floating-wpp-message {
+    background-color: white;
+    padding: 8px;
+    border-radius: 0px 5px 5px 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.floating-wpp .floating-wpp-popup.active .floating-wpp-message {
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+.floating-wpp .floating-wpp-popup .floating-wpp-head {
+    text-align: right;
+    color: white;
+    margin: 0 -15px 10px -15px;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.floating-wpp .floating-wpp-input-message {
+    background-color: white;
+    margin: 10px -15px -15px -15px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.floating-wpp .floating-wpp-input-message textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    resize: none;
+}
+
+.floating-wpp .floating-wpp-btn-send {
+    margin-left: 12px;
+    font-size: 0;
+    cursor: pointer;
 }

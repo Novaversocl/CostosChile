@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating WhatsApp Button</title>
+    <!-- Enlace al estilo de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Enlace a la biblioteca floatingWhatsApp -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/floating-whatsapp/dist/floating-wpp.min.css">
+    <style>
+        /* Estilo opcional para ajustar el tamaño del icono */
+        .whatsapp-icon {
+            font-size: 32px; /* Tamaño del icono */
+            color: #fdfdfd; 
+            
+            background-color: #25d366;
+    color: inherit;
+    border-radius: 100px;
+
+
+    
+    /* border-radius: calc(var(--s) / 2); */
+
+           
+            
+            transition: transform 0.3s ease; /* Agrega una transición de movimiento */
+        }
+
+        /* Cambia el tamaño del icono cuando se pasa el mouse sobre él */
+        .whatsapp-icon:hover {
+            transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Incluye el icono de WhatsApp -->
+<a href="https://api.whatsapp.com/send?phone=56997475803&text=Hola%20*Costos%20Chile*.%20Necesito%20contactarme%20con%20ustedes" target="_blank" class="whatsapp-icon" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+
+
+
+
+<!-- Incluye el script de floatingWhatsApp -->
+<script src="https://cdn.jsdelivr.net/npm/floating-whatsapp/dist/floating-wpp.min.js"></script>
+
+<script>
+    // Inicializa floatingWhatsApp
+    window.onload = function() {
+        floatingWhatsApp({
+            phone: 'TU_NÚMERO_DE_TELEFONO',
+            popupMessage: '¡Hola! ¿En qué puedo ayudarte?', // Mensaje predefinido
+            message: 'Hola, necesito ayuda.', // Mensaje predefinido para el enlace
+            showPopup: true,
+            buttonImage: '<ENLACE A LA IMAGEN DE TU BOTÓN>', // Opcional: puedes personalizar la imagen del botón
+            position: 'right',
+        });
+    };
+</script>
+
+</body>
+</html>
