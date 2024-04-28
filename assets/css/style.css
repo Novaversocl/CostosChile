@@ -61,7 +61,30 @@ Estilos para el texto del logo
 
 .colorcard {
   background-color: #004daa;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Añade una sombra de texto para resaltar el texto */
 }
+
+.colorcard2 {
+  background-color: #002D77;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Añade una sombra de texto para resaltar el texto */
+}
+
+
+.colorcard2footer {
+  background: linear-gradient(to right, #ffffff, #0D3B66, #6C757D, #004445, #ffffff);
+}
+
+.titulocolorcard
+{
+  background-color: rgba(0, 57, 118, 0.8);
+}
+
+.colorcardservicios {
+  background: linear-gradient(to right, rgba(0, 57, 118, 0.8), rgba(0, 39, 77, 0.8));
+  color: white; /* Establece el color del texto en blanco */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Añade una sombra de texto para resaltar el texto */
+}
+
 
 
 
@@ -88,6 +111,7 @@ Estilos para el texto del logo
 
 
 }
+
 
 
 
