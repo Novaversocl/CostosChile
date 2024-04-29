@@ -486,8 +486,14 @@
                 // No hacer nada para mantener la animación detenida incluso después de que el usuario retire el mouse
             }
         );
+
+        // Detiene la animación al hacer clic en la imagen
+        $('#WABoton').on('click', function() {
+            $(this).addClass('stop-animation'); // agregar la clase para detener la animación
+        });
     });
 </script>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
