@@ -88,6 +88,33 @@ Estilos para el texto del logo
 
 
 
+
+.estilobordecardservicios {
+  border: 0;
+  border-radius: 4em 0;
+  transition: .5s;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); /* Añade una sombra de caja */
+ 
+}
+
+.estilobordecardservicios:hover {
+  transform: translateY(-10px);
+}
+
+
+.estilobordecardservicios {
+  border: 0;
+  border-radius: 4em 0;
+  transition: .5s;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3); /* Añade una sombra de caja */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor */
+}
+
+
+
+
+
+
 .ColorfondoFooter {
   background-color: #02022e;
 
@@ -115,6 +142,22 @@ Estilos para el texto del logo
 
 
 
+
+.mueveeliconodelwhat {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-30px);
+  }
+  60% {
+      transform: translateY(-15px);
+  }
+}
 
 
 /* Estilos para el botón de WhatsApp flotante */
@@ -228,3 +271,15 @@ Estilos para el texto del logo
     font-size: 0;
     cursor: pointer;
 }
+
+
+    /* Detiene la animación cuando el mouse está sobre el botón */
+
+    .stop-animation {
+      animation: none !important;
+  }
+
+ 
+
+
+ 
