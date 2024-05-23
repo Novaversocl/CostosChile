@@ -279,7 +279,15 @@ Estilos para el texto del logo
       animation: none !important;
   }
 
- 
+  /* Este código es para sacar la imagen afuera */
+  .position-img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 5px;
+}
 
 
  
