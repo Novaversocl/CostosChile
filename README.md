@@ -41,7 +41,7 @@ Costos Chile es una plataforma web desarrollada por NovaVersoCL que ofrece una v
 
   ## Imagenes
 
-  ![imagen](https://github.com/Novaversocl/CostosChile/assets/95386670/ed245148-62ac-43b4-a322-ce88dd216431)
+
 
   ![imagen](https://github.com/Novaversocl/CostosChile/assets/95386670/ae81e12e-9db3-48f7-aab8-7fa955f3dc59)
 
