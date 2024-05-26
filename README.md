@@ -23,21 +23,6 @@ Costos Chile es una plataforma web desarrollada por NovaVersoCL que ofrece una v
 
   - **Cloudflare**: 
 
-## Licencia
-
-- **Copyright**: 
-- **Año de Copyright**: 
-- **Responsive**: 
-
-## Información Adicional
-
-
-- **Acerca de**: 
-- **Ubicaciones**: 
-- **Tamaño de la Empresa**: 
-- **Tipo de Empresa**: 
-- **Empresa Fundada**: 
-- **Personas**:
 
   ## Imagenes
 
