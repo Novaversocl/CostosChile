@@ -8,7 +8,7 @@ Costos Chile es una plataforma web desarrollada por NovaVersoCL que ofrece una v
 
 ## Detalles Técnicos
 
-- **URL**: [www.costoschile.cl](www.costoschile.cl)
+- **URL**: www.costoschile.cl
 - **Tecnologías Utilizadas**:
 
   - **Javascript**: 
