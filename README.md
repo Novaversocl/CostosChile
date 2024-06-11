@@ -2,9 +2,7 @@
 
 ## Descripción
 
-Costos Chile es una plataforma web desarrollada por NovaVersoCL que ofrece una variedad de herramientas y servicios relacionados con costos y precios en Chile. Desde gestión de contenido hasta análisis de datos, está diseñada para proporcionar información útil y relevante sobre los costos en el país.
-
-
+El proyecto Costos Chile se desarrolló utilizando JavaScript y Bootstrap, además de abordar integralmente el proceso de configuración de dominio DNS, certificado SSL, correos corporativos y configuración de cPanel. La web está diseñada para la gestión de costos de procesos productivos. 
 
 ## Detalles Técnicos
 
